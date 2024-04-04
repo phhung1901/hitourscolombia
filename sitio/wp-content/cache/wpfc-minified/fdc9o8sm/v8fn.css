@@ -1,0 +1,297 @@
+.woocs_auto_switcher {
+width: 200px;
+height: 220px;
+position: fixed;
+margin-top: 30px; margin: 0px;
+z-index: 99999;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.woocs_auto_switcher.right {
+right: 0px; 
+}
+img.flag_auto_switcher{
+height: auto;
+width: 35px;
+display: inline-block;
+vertical-align: middle;
+}
+span img.flag_auto_switcher{
+margin: 0 auto;
+}
+.woocs_auto_switcher.right{
+width: inherit;
+}
+.woocs_auto_switcher.right li{
+list-style: none;
+}
+.woocs_auto_switcher li a {
+display: block;
+max-width: 75px;
+font-size: 14px;
+border-bottom: 1px solid #333;
+color: #fff;
+-webkit-font-smoothing: antialiased;
+padding: 7px;
+text-decoration: none;
+text-align: center;
+transition: background .5s ease .300ms;
+}
+.woocs_auto_switcher li:first-child a { border-radius: 0 5px 0 0 }
+.woocs_auto_switcher li:last-child  a { border-radius: 0 0 5px 0 }
+.woocs_auto_switcher.right li:first-child a { border-radius: 5px 0 0 0 }
+.woocs_auto_switcher.right li:last-child  a { border-radius: 0 0 0 5px }
+.woocs_auto_switcher li a span { ;
+width: 150px;
+display: inline-block;
+padding-right: 9px;
+white-space: nowrap;
+height: 40px;
+float: left;
+text-align: center;
+color: #fff;
+margin: -32px 78px;
+padding: 8px;
+transform-origin: 0;
+visibility: hidden;
+opacity: 0;
+transform: rotateY(45deg);
+border-radius: 5px;
+transition: all .5s ease .300ms
+}
+.woocs_auto_switcher.right li a span {
+float: right;  
+}
+.woocs_auto_switcher li span:after {
+content: '';
+display: block;
+width: 0;
+height: 0;
+position: absolute;
+left: -20px;
+top: 10px;
+border: 10px solid transparent;
+border-right: 10px solid #222;
+}
+.woocs_auto_switcher.right li span:after {
+right: -20px;
+left: initial;
+border-right: 10px solid transparent;
+border-left: 10px solid #222;
+}
+.woocs_auto_switcher li a:hover span {
+visibility: visible;
+opacity: 1;
+transform: rotateY(0)
+}
+.woocs_auto_switcher li a span div{
+display: table;
+}.chosen-container{min-width:110px;position:relative;display:inline-block;vertical-align:middle;font-size:13px;zoom:1;*display:inline;-webkit-user-select:none;-moz-user-select:none;user-select:none}.chosen-container .chosen-drop{position:absolute;top:100%;left:-9999px;z-index:1010;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;width:100%;border:1px solid #aaa;border-top:0;background:#fff;box-shadow:0 4px 5px rgba(0,0,0,.15)}.chosen-container.chosen-with-drop .chosen-drop{left:0}.chosen-container a{cursor:pointer}.chosen-container-single .chosen-single{position:relative;display:block;overflow:hidden;padding:0 0 0 8px;height:23px;border:1px solid #aaa;border-radius:5px;background-color:#fff;background:-webkit-gradient(linear,50% 0,50% 100%,color-stop(20%,#fff),color-stop(50%,#f6f6f6),color-stop(52%,#eee),color-stop(100%,#f4f4f4));background:-webkit-linear-gradient(top,#fff 20%,#f6f6f6 50%,#eee 52%,#f4f4f4 100%);background:-moz-linear-gradient(top,#fff 20%,#f6f6f6 50%,#eee 52%,#f4f4f4 100%);background:-o-linear-gradient(top,#fff 20%,#f6f6f6 50%,#eee 52%,#f4f4f4 100%);background:linear-gradient(top,#fff 20%,#f6f6f6 50%,#eee 52%,#f4f4f4 100%);background-clip:padding-box;box-shadow:0 0 3px #fff inset,0 1px 1px rgba(0,0,0,.1);color:#444;text-decoration:none;white-space:nowrap;line-height:24px}.chosen-container-single .chosen-default{color:#999}.chosen-container-single .chosen-single span{display:block;line-height: 23px;overflow:hidden;margin-right:26px;text-overflow:ellipsis;white-space:nowrap}.chosen-container-single .chosen-single-with-deselect span{margin-right:38px}.chosen-container-single .chosen-single abbr{position:absolute;top:6px;right:26px;display:block;width:12px;height:12px;background:url(//hitourscolombia.com/sitio/wp-content/plugins/woocommerce-currency-switcher/js/chosen/chosen-sprite.png) -42px 1px no-repeat;font-size:1px}.chosen-container-single .chosen-single abbr:hover{background-position:-42px -10px}.chosen-container-single.chosen-disabled .chosen-single abbr:hover{background-position:-42px -10px}.chosen-container-single .chosen-single div{position:absolute;top:0;right:0;display:block;width:18px;height:100%}.chosen-container-single .chosen-single div b{display:block;width:100%;height:100%;background:url(//hitourscolombia.com/sitio/wp-content/plugins/woocommerce-currency-switcher/js/chosen/chosen-sprite.png) no-repeat 0 2px}.chosen-container-single .chosen-search{position:relative;z-index:1010;margin:0;padding:3px 4px;white-space:nowrap}.chosen-container-single .chosen-search input[type=text]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:1px 0;padding:4px 20px 4px 5px;width:100%;height:auto;outline:0;border:1px solid #aaa;background:#fff url(//hitourscolombia.com/sitio/wp-content/plugins/woocommerce-currency-switcher/js/chosen/chosen-sprite.png) no-repeat 100% -20px;background:url(//hitourscolombia.com/sitio/wp-content/plugins/woocommerce-currency-switcher/js/chosen/chosen-sprite.png) no-repeat 100% -20px;font-size:1em;font-family:sans-serif;line-height:normal;border-radius:0}.chosen-container-single .chosen-drop{margin-top:-1px;border-radius:0 0 4px 4px;background-clip:padding-box}.chosen-container-single.chosen-container-single-nosearch .chosen-search{position:absolute;left:-9999px}.chosen-container .chosen-results{position:relative;overflow-x:hidden;overflow-y:auto;margin:0 4px 4px 0;padding:0 0 0 4px;max-height:240px;-webkit-overflow-scrolling:touch}.chosen-container .chosen-results li{display:none;margin:0;padding:5px 6px;list-style:none;line-height:15px;-webkit-touch-callout:none}.chosen-container .chosen-results li.active-result{display:list-item;cursor:pointer}.chosen-container .chosen-results li.disabled-result{display:list-item;color:#ccc;cursor:default}.chosen-container .chosen-results li.highlighted{}.chosen-container .chosen-results li.no-results{display:list-item;background:#f4f4f4}.chosen-container .chosen-results li.group-result{display:list-item;font-weight:700;cursor:default}.chosen-container .chosen-results li.group-option{padding-left:15px}.chosen-container .chosen-results li em{font-style:normal;text-decoration:underline}.chosen-container-multi .chosen-choices{position:relative;overflow:hidden;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;width:100%;height:auto!important;height:1%;border:1px solid #aaa;background-color:#fff;background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(1%,#eee),color-stop(15%,#fff));background-image:-webkit-linear-gradient(#eee 1%,#fff 15%);background-image:-moz-linear-gradient(#eee 1%,#fff 15%);background-image:-o-linear-gradient(#eee 1%,#fff 15%);background-image:linear-gradient(#eee 1%,#fff 15%);cursor:text}.chosen-container-multi .chosen-choices li{float:left;list-style:none}.chosen-container-multi .chosen-choices li.search-field{margin:0;padding:0;white-space:nowrap}.chosen-container-multi .chosen-choices li.search-field input[type=text]{margin:1px 0;padding:5px;height:15px;outline:0;border:0!important;background:transparent!important;box-shadow:none;color:#666;font-size:100%;font-family:sans-serif;line-height:normal;border-radius:0}.chosen-container-multi .chosen-choices li.search-field .default{color:#999}.chosen-container-multi .chosen-choices li.search-choice{position:relative;margin:3px 0 3px 5px;padding:3px 20px 3px 5px;border:1px solid #aaa;border-radius:3px;background-color:#e4e4e4;background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(20%,#f4f4f4),color-stop(50%,#f0f0f0),color-stop(52%,#e8e8e8),color-stop(100%,#eee));background-image:-webkit-linear-gradient(#f4f4f4 20%,#f0f0f0 50%,#e8e8e8 52%,#eee 100%);background-image:-moz-linear-gradient(#f4f4f4 20%,#f0f0f0 50%,#e8e8e8 52%,#eee 100%);background-image:-o-linear-gradient(#f4f4f4 20%,#f0f0f0 50%,#e8e8e8 52%,#eee 100%);background-image:linear-gradient(#f4f4f4 20%,#f0f0f0 50%,#e8e8e8 52%,#eee 100%);background-clip:padding-box;box-shadow:0 0 2px #fff inset,0 1px 0 rgba(0,0,0,.05);color:#333;line-height:13px;cursor:default}.chosen-container-multi .chosen-choices li.search-choice .search-choice-close{position:absolute;top:4px;right:3px;display:block;width:12px;height:12px;background:url(//hitourscolombia.com/sitio/wp-content/plugins/woocommerce-currency-switcher/js/chosen/chosen-sprite.png) -42px 1px no-repeat;font-size:1px}.chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover{background-position:-42px -10px}.chosen-container-multi .chosen-choices li.search-choice-disabled{padding-right:5px;border:1px solid #ccc;background-color:#e4e4e4;background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(20%,#f4f4f4),color-stop(50%,#f0f0f0),color-stop(52%,#e8e8e8),color-stop(100%,#eee));background-image:-webkit-linear-gradient(top,#f4f4f4 20%,#f0f0f0 50%,#e8e8e8 52%,#eee 100%);background-image:-moz-linear-gradient(top,#f4f4f4 20%,#f0f0f0 50%,#e8e8e8 52%,#eee 100%);background-image:-o-linear-gradient(top,#f4f4f4 20%,#f0f0f0 50%,#e8e8e8 52%,#eee 100%);background-image:linear-gradient(top,#f4f4f4 20%,#f0f0f0 50%,#e8e8e8 52%,#eee 100%);color:#666}.chosen-container-multi .chosen-choices li.search-choice-focus{background:#d4d4d4}.chosen-container-multi .chosen-choices li.search-choice-focus .search-choice-close{background-position:-42px -10px}.chosen-container-multi .chosen-results{margin:0;padding:0}.chosen-container-multi .chosen-drop .result-selected{display:list-item;color:#ccc;cursor:default}.chosen-container-active .chosen-single{border:1px solid #5897fb;box-shadow:0 0 5px rgba(0,0,0,.3)}.chosen-container-active.chosen-with-drop .chosen-single{border:1px solid #aaa;-moz-border-radius-bottomright:0;border-bottom-right-radius:0;-moz-border-radius-bottomleft:0;border-bottom-left-radius:0;background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(20%,#eee),color-stop(80%,#fff));background-image:-webkit-linear-gradient(#eee 20%,#fff 80%);background-image:-moz-linear-gradient(#eee 20%,#fff 80%);background-image:-o-linear-gradient(#eee 20%,#fff 80%);background-image:linear-gradient(#eee 20%,#fff 80%);box-shadow:0 1px 0 #fff inset}.chosen-container-active.chosen-with-drop .chosen-single div{border-left:0;background:transparent}.chosen-container-active.chosen-with-drop .chosen-single div b{background-position:-18px 2px}.chosen-container-active .chosen-choices{border:1px solid #5897fb;box-shadow:0 0 5px rgba(0,0,0,.3)}.chosen-container-active .chosen-choices li.search-field input[type=text]{color:#111!important}.chosen-disabled{opacity:.5!important;cursor:default}.chosen-disabled .chosen-single{cursor:default}.chosen-disabled .chosen-choices .search-choice .search-choice-close{cursor:default}.chosen-rtl{text-align:right}.chosen-rtl .chosen-single{overflow:visible;padding:0 8px 0 0}.chosen-rtl .chosen-single span{margin-right:0;margin-left:26px;direction:rtl}.chosen-rtl .chosen-single-with-deselect span{margin-left:38px}.chosen-rtl .chosen-single div{right:auto;left:3px}.chosen-rtl .chosen-single abbr{right:auto;left:26px}.chosen-rtl .chosen-choices li{float:right}.chosen-rtl .chosen-choices li.search-field input[type=text]{direction:rtl}.chosen-rtl .chosen-choices li.search-choice{margin:3px 5px 3px 0;padding:3px 5px 3px 19px}.chosen-rtl .chosen-choices li.search-choice .search-choice-close{right:auto;left:4px}.chosen-rtl.chosen-container-single-nosearch .chosen-search,.chosen-rtl .chosen-drop{left:9999px}.chosen-rtl.chosen-container-single .chosen-results{margin:0 0 4px 4px;padding:0 4px 0 0}.chosen-rtl .chosen-results li.group-option{padding-right:15px;padding-left:0}.chosen-rtl.chosen-container-active.chosen-with-drop .chosen-single div{border-right:0}.chosen-rtl .chosen-search input[type=text]{padding:4px 5px 4px 20px;background:#fff url(//hitourscolombia.com/sitio/wp-content/plugins/woocommerce-currency-switcher/js/chosen/chosen-sprite.png) no-repeat -30px -20px;background:url(//hitourscolombia.com/sitio/wp-content/plugins/woocommerce-currency-switcher/js/chosen/chosen-sprite.png) no-repeat -30px -20px;direction:rtl}.chosen-rtl.chosen-container-single .chosen-single div b{background-position:6px 2px}.chosen-rtl.chosen-container-single.chosen-with-drop .chosen-single div b{background-position:-12px 2px}@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-resolution:144dpi){.chosen-rtl .chosen-search input[type=text],.chosen-container-single .chosen-single abbr,.chosen-container-single .chosen-single div b,.chosen-container-single .chosen-search input[type=text],.chosen-container-multi .chosen-choices .search-choice .search-choice-close,.chosen-container .chosen-results-scroll-down span,.chosen-container .chosen-results-scroll-up span{background-image:url(//hitourscolombia.com/sitio/wp-content/plugins/woocommerce-currency-switcher/js/chosen/chosen-sprite@2x.png)!important;background-size:52px 37px!important;background-repeat:no-repeat!important}}.woocommerce-currency-switcher-form .dd-selected
+{
+color: #000000;
+display: block;
+font-weight: bold;
+overflow: hidden;
+padding: 10px;
+}
+.woocommerce-currency-switcher-form a.dd-selected{
+text-decoration: none !important;
+}
+.woocommerce-currency-switcher-form a.dd-selected:hover{
+text-decoration: none;
+}
+.woocommerce-currency-switcher-form a.dd-option{
+text-decoration: none;
+display: block;
+font-weight: bold;
+overflow: hidden;
+padding: 10px;
+background: #fff;
+}
+.woocommerce-currency-switcher-form a.dd-option:hover{
+text-decoration: none;
+}
+.woocommerce-currency-switcher-form ul.dd-options{
+list-style: none !important;
+} a.chosen-single{
+text-decoration: none !important;
+}
+.woocs_show_flags .chosen-container .chosen-results li.highlighted {
+color: green !important;
+}
+.woocommerce-currency-switcher-form .chosen-results li{
+line-height: 23px !important;
+}
+.woocommerce-currency-switcher .hentry .entry-content a:not(.button){
+text-decoration: none !important;
+}
+.woocommerce-currency-switcher option{
+height: 23px;
+padding-bottom: 3px;
+}
+a.woocs_flag_view_item{
+display: inline-block;
+margin: 0 3px 3px 0;
+width: 50px;
+height: 40px;
+}
+a.woocs_flag_view_item img{
+width: 100%;
+}
+a.woocs_flag_view_item_current{
+opacity: 0.65;
+}
+.woocs_converter_shortcode_from, .woocs_converter_shortcode_to{
+width: 45%;
+}
+.woocs_converter_shortcode_amount{
+width: 99%;
+margin-bottom: 4px;
+display: inline-block;
+}
+.woocs_converter_shortcode_results{
+width: 99%;
+margin-top: 4px;
+margin-bottom: 4px;
+display: inline-block;
+}
+ul.woocs_currency_rates{
+margin: 5px 0 0 9px !important;
+} span.woocs_price_info_icon{
+display: inline-block;
+width: 15px;
+height: 15px;
+background-image: url(//hitourscolombia.com/sitio/wp-content/plugins/woocommerce-currency-switcher/img/woocs_price_info_icon.png);
+}
+.woocs_price_info{
+position: relative;
+display: inline;
+margin-left: 3px;
+}
+.woocs_price_info + .woocs_price_info{
+display: none !important;
+}
+.woocs_price_info + .woocs_price_info{
+display: none !important;
+}
+div.woocs_price_info ul{
+list-style: none;
+position: absolute;
+width: auto !important;
+min-width: 120px;
+max-width: 400px;
+color: #FFFFFF !important;
+background: #000000 !important;
+height: auto;
+min-height: 19px;
+font-size: 14px !important;
+line-height: normal;
+vertical-align: middle;
+text-align: left;
+visibility: hidden;
+border-radius: 6px;
+padding: 7px !important;
+}
+div:hover.woocs_price_info ul{
+visibility: visible;
+opacity: 0.85;
+bottom: 5px;
+left: 50%;
+margin-left: -5px;
+z-index: 999;
+}
+div.woocs_price_info ul li{
+padding-bottom: 4px;
+white-space: nowrap;
+margin: 0 !important;
+} .woocs_current_product_id{
+display: none;
+}
+ul.woocs_price_info_list li span{
+font-weight: bold;
+}
+.woocs_cart_item_price{
+font-size: 11px;
+font-style: italic;
+}
+#shipping_method .woocs_cart_item_price{
+display: inline-block;
+clear: both;
+text-indent: 0;
+margin-left: 5px;
+}
+.woocs_currency_rate_flag{
+width: 25px !important; max-width: 25px !important; display: inline;
+}
+.woocs_display_none{
+display: none; 
+}
+.woocs_geo_hello{
+color:green;
+font-size:18px;
+font-weight:normal;
+line-height:0;
+}
+.woocs_geo_hello_not{
+color:red; 
+font-size:18px; 
+font-weight:normal;
+}
+.woocs_auto_switcher > li{
+margin-bottom: 0 !important;
+} .woocs-lds-ellipsis {
+display: inline-block;
+position: relative;
+width: 80px;
+height: 80px;
+}
+.woocs-lds-ellipsis div {
+position: absolute;
+top: 33px;
+width: 13px;
+height: 13px;
+border-radius: 50%;
+background: cornflowerblue;
+animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.woocs-lds-ellipsis div:nth-child(1) {
+left: 8px;
+animation: woocs-lds-ellipsis1 0.6s infinite;
+}
+.woocs-lds-ellipsis div:nth-child(2) {
+left: 8px;
+animation: woocs-lds-ellipsis2 0.6s infinite;
+}
+.woocs-lds-ellipsis div:nth-child(3) {
+left: 32px;
+animation: woocs-lds-ellipsis2 0.6s infinite;
+}
+.woocs-lds-ellipsis div:nth-child(4) {
+left: 56px;
+animation: woocs-lds-ellipsis3 0.6s infinite;
+}
+@keyframes woocs-lds-ellipsis1 {
+0% {
+transform: scale(0);
+}
+100% {
+transform: scale(1);
+}
+}
+@keyframes woocs-lds-ellipsis3 {
+0% {
+transform: scale(1);
+}
+100% {
+transform: scale(0);
+}
+}
+@keyframes woocs-lds-ellipsis2 {
+0% {
+transform: translate(0, 0);
+}
+100% {
+transform: translate(24px, 0);
+}
+}
